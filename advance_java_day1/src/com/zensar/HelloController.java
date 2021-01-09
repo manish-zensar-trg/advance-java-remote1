@@ -23,4 +23,9 @@ public class HelloController extends HttpServlet {
 		}
 	}
 	
+	public void greet(String message) {
+		System.out.println(message);
+	}
+	
+	
 }
